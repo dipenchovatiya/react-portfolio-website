@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 5rem;
   overflow: hidden;
 }
 
@@ -29,13 +29,6 @@ header {
   bottom: 3rem;
 }
 
-.header__socials::after {
-  content: "";
-  width: 1px;
-  height: 2rem;
-  background: var(--color-primary);
-}
-
 /* =============== ME ============== */
 .me {
   background: linear-gradient(var(--color-primary), transparent);
@@ -57,7 +50,7 @@ header {
   bottom: 5rem;
   transform: rotate(90deg);
   font-weight: 300;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */

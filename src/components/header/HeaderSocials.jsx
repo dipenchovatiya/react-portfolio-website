@@ -1,14 +1,18 @@
 import React from 'react'
-import {BsLinkedin} from 'react-icons/bs'
+import {ImLinkedin} from 'react-icons/im'
 import {FaGithub} from 'react-icons/fa'
-import {FiDribbble} from 'react-icons/fi'
+import {AiFillInstagram} from 'react-icons/ai'
+import {AiFillFacebook} from 'react-icons/ai'
+import {AiOutlineWhatsApp} from 'react-icons/ai'
 
 const HeaderSocials = () => {
   return (
     <div className='header__socials'>
-        <a href="https://linkedin.com" target="_blank"><BsLinkedin/></a>
-        <a href="https://github.com" target="_blank"><FaGithub/></a>
-        <a href="https://dribbble.com" target="_blank"><FiDribbble/></a>
+        <a href="https://www.linkedin.com/in/dipenchovatiya" target="_blank"><ImLinkedin/></a>
+        <a href="https://github.com/dipenchovatiya" target="_blank"><FaGithub/></a>
+        <a href="http://instagram.com/dipenchovatiya" target="_blank"><AiFillInstagram/></a>
+        <a href="https://www.facebook.com/profile.php?id=100060588042568" target="_blank"><AiFillFacebook/></a>
+        <a href="https://wa.me/7163424094?text=Hi%20Dipen%2C%20I%20am%20interested%20in%20your%20work%20and%20want%20to%20talk%20more%20about%20it%21" target="_blank"><AiOutlineWhatsApp/></a>
     </div>
   )
 }
