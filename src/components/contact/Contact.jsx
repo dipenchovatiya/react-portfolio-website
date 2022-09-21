@@ -1,9 +1,7 @@
-import React from 'react'
+import { React, useRef } from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
-import {RiMessengerLine} from 'react-icons/ri'
-import {BsWhatsapp} from 'react-icons/bs'
-import { useRef } from 'react';
+import {BsFillTelephoneFill, BsWhatsapp} from 'react-icons/bs'
 import emailjs from 'emailjs-com'
 
 const Contact = () => {
@@ -12,7 +10,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_3fjfb17', 'template_ky1ucaz', form.current, 'user_641J0AWGxx4qcKi835yDq')
+    emailjs.sendForm('dipenchovatiya07', 'template_2rj5wb2', form.current, 'pm1h9XOuykMxJGeR6')
 
     e.target.reset()
   };
@@ -27,20 +25,20 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>dummyegator@gmail.com</h5>
-            <a href="mailto:dummyegator@gmail.com" target="_blank">Send a message</a>
+            <h5>dipenchovatiya07@gmail.com</h5>
+            <a href="mailto:dipenchovatiya07@gmail.com" target="_blank">Send an Email</a>
           </article>
           <article className="contact__option">
-            <RiMessengerLine className='contact__option-icon'/>
-            <h4>Messenger</h4>
-            <h5>egatortutorials</h5>
-            <a href="https://m.me/ernest.achiever" target="_blank">Send a message</a>
+            <BsFillTelephoneFill className='contact__option-icon'/>
+            <h4>Phone</h4>
+            <h5>+17163424094</h5>
+            <a href="tel:+17163424094" target="_blank">Give a call</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
-            <h5>+123456789</h5>
-            <a href="https://api.whatsapp.com/send?phone=+1234567890" target="_blank">Send a message</a>
+            <h5>+17163424094</h5>
+            <a href="https://wa.me/7163424094?text=Hi%20Dipen%2C%20I%20am%20interested%20in%20your%20work%20and%20want%20to%20talk%20more%20about%20it%21" target="_blank">Send a message</a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
