@@ -22,7 +22,7 @@ const About = () => {
           <div className="about__cards">
             <article className='about__card'>
               <FaAward className='about__icon'/>
-              <h5>Experience</h5>
+              <h5>Skills</h5>
               <small>3+ Years Working</small>
             </article>
 
@@ -40,7 +40,7 @@ const About = () => {
           </div>
 
           <p>
-          A soaring software developer, who thrives to solve complex business challenges through innovative and cutting-edge technologies. A personable, communicative developer with ample of coding experience in programming languages like Java, Python, and HTML along with framework like Spring boot, React and Adobe Experience Manager. Enthusiastic to explore the horizons of Machine Learning and Cloud Computing.
+          A soaring software developer, who thrives to solve complex business challenges through innovative and cutting-edge technologies. A personable, communicative developer with ample of coding skills in programming languages like Java, Python, and HTML along with framework like Spring boot, React and Adobe Skills Manager. Enthusiastic to explore the horizons of Machine Learning and Cloud Computing.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
