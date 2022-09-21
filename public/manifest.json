@@ -1,0 +1,16 @@
+{
+    "name": "Chardip",
+    "short_name": "Chardip",
+    "background_color": "#282c34",
+    "theme_color": "#282c34",
+    "description": "Dipen Chovatiya's portfolio website",
+    "icons": [
+        {
+            "src": "logo.png",
+            "sizes": "100x100",
+            "type": "image/x-icon"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone"
+}
