@@ -16,6 +16,8 @@ header {
   display: flex;
   gap: 1.2rem;
   justify-content: center;
+  margin-top: 1.7rem;
+  gap: 1rem;
 }
 
 /* =============== HEADER SOCIALS ============== */
@@ -41,6 +43,10 @@ header {
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
   padding: 3rem 1.5rem 1.5rem 1.5rem;
+  width: 94%;
+  max-width: 20rem;
+  margin-top: 2.5rem;
+  justify-content: center;
 }
 
 /* =============== SCROLL DOWN ============== */
@@ -64,26 +70,11 @@ header {
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;
-    /* added after tutorial */
     padding-top: 4rem;
   }
 
   .header__socials,
   .scroll__down {
     display: none;
-  }
-
-  /* added after tutorial */
-  .me {
-    width: 94%;
-    max-width: 20rem;
-    margin-top: 2.5rem;
-    justify-content: center;
-  }
-
-  /* added after tutorial */
-  .cta {
-    margin-top: 1.7rem;
-    gap: 1rem;
   }
 }
