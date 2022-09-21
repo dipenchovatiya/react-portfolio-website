@@ -14,7 +14,6 @@ const App = () => {
         <Nav />
         <About />
         <Experience />
-        {/* <Services /> TODO Fix this Removing this temporary */}
         <Portfolio />
         <Contact />
         <Footer />
