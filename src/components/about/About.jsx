@@ -29,18 +29,18 @@ const About = () => {
             <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <small>10+ Worldwide</small>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>20+ Completed</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos voluptatem eius dolorem maiores nihil ducimus at rem ullam reprehenderit quidem quia deserunt, molestiae, eligendi amet repellat molestias quos totam.
+          A soaring software developer, who thrives to solve complex business challenges through innovative and cutting-edge technologies. A personable, communicative developer with ample of coding experience in programming languages like Java, Python, and HTML along with framework like Spring boot. Enthusiastic to explore the horizons of Machine Learning and Cloud Computing.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
