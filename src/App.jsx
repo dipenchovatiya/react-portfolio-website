@@ -1,23 +1,18 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from 'react'
-import Header from './components/header/Header'
-import Nav from './components/nav/Nav'
-import About from './components/about/About'
-import Skills from './components/skills/Skills'
-import Portfolio from './components/portfolio/Portfolio'
-import Contact from './components/contact/Contact'
-import Footer from './components/footer/Footer'
+import Home from './pages/Home'
+import TinyUrl from './pages/TinyUrl'
 
 const App = () => {
   return (
-    <>
-        <Header />
-        <Nav />
-        <About />
-        <Skills />
-        <Portfolio />
-        <Contact />
-        <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" >
+          <Route index element={<Home />} />
+          <Route path="tinyurl" element={<TinyUrl />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
